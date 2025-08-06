@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a54e582-eed8-4f07-bf87-c0306a417c22" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/face_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_init_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/face_detector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/_init_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routers/_init_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routers/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routers/event.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routers/face_recognition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routers/face_recognition_enhanced.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/_init_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/automatic_processor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/email_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/event_knn_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/face_alignment_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/face_detector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/face_features_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/face_landmarks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/feature_vector_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/file_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/image_storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FastAPI main" />
+        <option value="FastAPI test_main" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/main.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="file://$USER_HOME$/AppData/Local/Temp/whats-new-dir/whats-new.http" environment="test" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2x2fCQht74gfdFEBoV7QaXFPczE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;FastAPI.face_project.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.test_main | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.test_main | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.test_main | בדיקת חילוץ וקטור תכונה.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.test_main | בדיקת חילוץ תכונות.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.test_main | בדיקת עיבוד מלא.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Conectdb.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.database.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demo_script.executor&quot;: &quot;Run&quot;,
+    &quot;Python.face_landmarks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.feature_vector_utils.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.simple_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tests_face_recognituon.executor&quot;: &quot;Run&quot;,
+    &quot;Python.visual_face_verification.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/face_project/output&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\face_project\output" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\face_project" />
+      <recent name="D:\face_project\app" />
+      <recent name="D:\face_project\models" />
+      <recent name="D:\face_project\" />
+      <recent name="D:\face_project\\" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.visual_face_verification">
+    <configuration name="test_main | בדיקת חילוץ תכונות" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/test_main.http" executionIdentifier="בדיקת חילוץ תכונות" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="database" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="face_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/database.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="face_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="simple_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="face_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/simple_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests_face_recognituon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="face_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests_face_recognituon.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="visual_face_verification" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="face_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visual_face_verification.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="face_project" type="Python.FastAPI">
+      <option name="file" value="$PROJECT_DIR$/main.py" />
+      <module name="face_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.visual_face_verification" />
+        <item itemvalue="Python.demo_script" />
+        <item itemvalue="Python.simple_test" />
+        <item itemvalue="Python.tests_face_recognituon" />
+        <item itemvalue="Python.database" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.159" />
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a54e582-eed8-4f07-bf87-c0306a417c22" name="Changes" comment="" />
+      <created>1747140960629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747140960629</updated>
+      <workItem from="1747140961681" duration="9668000" />
+      <workItem from="1747155569192" duration="14384000" />
+      <workItem from="1747254775597" duration="18410000" />
+      <workItem from="1747386785346" duration="2799000" />
+      <workItem from="1747396118773" duration="17315000" />
+      <workItem from="1747835165484" duration="94000" />
+      <workItem from="1747835968899" duration="133000" />
+      <workItem from="1747836133889" duration="2000" />
+      <workItem from="1747837407782" duration="2718000" />
+      <workItem from="1747841837347" duration="59000" />
+      <workItem from="1747842313990" duration="613000" />
+      <workItem from="1747842958936" duration="38183000" />
+      <workItem from="1748012209264" duration="41700000" />
+      <workItem from="1748304750876" duration="556000" />
+      <workItem from="1748305653255" duration="1316000" />
+      <workItem from="1748334361343" duration="12382000" />
+      <workItem from="1748361194236" duration="472000" />
+      <workItem from="1748363103873" duration="13544000" />
+      <workItem from="1748385748501" duration="4359000" />
+      <workItem from="1748417698590" duration="8419000" />
+      <workItem from="1748437041456" duration="9663000" />
+      <workItem from="1748473709136" duration="4969000" />
+      <workItem from="1748479815341" duration="4419000" />
+      <workItem from="1748484657976" duration="1510000" />
+      <workItem from="1748486223277" duration="970000" />
+      <workItem from="1748522882414" duration="28307000" />
+      <workItem from="1748716045672" duration="26179000" />
+      <workItem from="1748902886654" duration="10035000" />
+      <workItem from="1748989198570" duration="99695000" />
+      <workItem from="1749326283708" duration="19466000" />
+      <workItem from="1749476265649" duration="14077000" />
+      <workItem from="1749518013134" duration="15774000" />
+      <workItem from="1750101658140" duration="40381000" />
+      <workItem from="1750194774414" duration="1442000" />
+      <workItem from="1750196353791" duration="3877000" />
+      <workItem from="1750200618760" duration="4888000" />
+      <workItem from="1750206244360" duration="23315000" />
+      <workItem from="1750292023040" duration="3432000" />
+      <workItem from="1750323445224" duration="12522000" />
+      <workItem from="1750351162208" duration="7573000" />
+      <workItem from="1750544025888" duration="1557000" />
+      <workItem from="1750743705994" duration="10366000" />
+      <workItem from="1751191233366" duration="12320000" />
+      <workItem from="1751413484241" duration="29762000" />
+      <workItem from="1751579244223" duration="6600000" />
+      <workItem from="1751620860880" duration="14353000" />
+      <workItem from="1751805251633" duration="5514000" />
+      <workItem from="1751838763804" duration="9783000" />
+      <workItem from="1751891034578" duration="3284000" />
+      <workItem from="1751902594499" duration="2009000" />
+      <workItem from="1751904844619" duration="11279000" />
+      <workItem from="1751974223223" duration="27936000" />
+      <workItem from="1752045356233" duration="33153000" />
+      <workItem from="1752134135188" duration="28181000" />
+      <workItem from="1752378925970" duration="717000" />
+      <workItem from="1752380664257" duration="14507000" />
+      <workItem from="1752422302872" duration="5652000" />
+      <workItem from="1752434951638" duration="8552000" />
+      <workItem from="1752476814386" duration="4183000" />
+      <workItem from="1752482746856" duration="27371000" />
+      <workItem from="1752513362349" duration="18824000" />
+      <workItem from="1752559097126" duration="9549000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/face_project$main.coverage" NAME="main Coverage Results" MODIFIED="1748281970381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/face_project$Conectdb.coverage" NAME="Conectdb Coverage Results" MODIFIED="1747846530573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/face_project$simple_test.coverage" NAME="simple_test Coverage Results" MODIFIED="1749081639211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/face_project$app.coverage" NAME="app Coverage Results" MODIFIED="1748443732245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/face_project$face_landmarks.coverage" NAME="face_landmarks Coverage Results" MODIFIED="1747846539650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/face_project$database.coverage" NAME="database Coverage Results" MODIFIED="1748950833847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/face_project$face_project.coverage" NAME="face_project Coverage Results" MODIFIED="1748443828207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/face_project$feature_vector_utils.coverage" NAME="feature_vector_utils Coverage Results" MODIFIED="1748300776027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/face_project$visual_face_verification.coverage" NAME="visual_face_verification Coverage Results" MODIFIED="1749562682195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/face_project$demo_script.coverage" NAME="demo_script Coverage Results" MODIFIED="1749548595330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/face_project$tests_face_recognituon.coverage" NAME="tests_face_recognituon Coverage Results" MODIFIED="1749035795982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

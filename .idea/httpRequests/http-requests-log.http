@@ -1,0 +1,54 @@
+POST http://localhost:8000/extract_features
+Content-Type: multipart/form-data; boundary=MyBoundary
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 204883
+
+--MyBoundary
+Content-Disposition: form-data; name="file"; filename="image.jpg"
+Content-Type: image/jpeg
+
+< D:\face_project\image.jpg
+--MyBoundary--
+
+<> 2025-05-22T174614.404.json
+
+###
+
+POST http://localhost:8000/process_complete
+Content-Type: multipart/form-data; boundary=ProcessBoundary
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 204883
+
+--ProcessBoundary
+Content-Disposition: form-data; name="file"; filename="image.jpg"
+Content-Type: image/jpeg
+
+< D:\face_project\image.jpg
+--ProcessBoundary--
+
+<> 2025-05-22T174558.404.json
+
+###
+
+POST http://localhost:8000/extract_features
+Content-Type: multipart/form-data; boundary=MyBoundary
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 204883
+
+--MyBoundary
+Content-Disposition: form-data; name="file"; filename="image.JPG"
+Content-Type: image/jpeg
+
+< D:\face_project\image.jpg
+--MyBoundary--
+
+<> 2025-05-22T173709.404.json
+
+###
+

@@ -1,0 +1,268 @@
+## Test your FastAPI endpoints
+#
+#GET http://127.0.0.1:8000/
+#Accept: application/json
+#
+####
+#
+#GET http://127.0.0.1:8000/hello/User
+#Accept: application/json
+#
+####
+#
+#
+#POST http://127.0.0.1:8000/detect_faces/
+#Content-Type: multipart/form-data
+#
+
+
+#
+#--boundary
+#Content-Disposition: form-data; name="file"; filename="image.jpg"
+#Content-Type: image/jpeg
+#
+#< D:/face_project/image.jpg
+#--boundary--
+#
+#
+#### בדיקת עמוד הבית
+#GET http://localhost:8000/
+#
+#### בדיקת זיהוי פנים
+#POST http://localhost:8000/detect_faces/
+#Content-Type: multipart/form-data; boundary=WebAppBoundary
+#
+#--WebAppBoundary
+#Content-Disposition: form-data; name="file"; filename="image.JPG"
+#Content-Type: image/jpeg
+#
+#< ./image.JPG
+#--WebAppBoundary
+#Content-Disposition: form-data; name="detection_type"
+#
+#faces
+#--WebAppBoundary--
+#
+#### בדיקת זיהוי נקודות ציון
+#POST http://localhost:8000/detect_faces/
+#Content-Type: multipart/form-data; boundary=WebAppBoundary
+#
+#--WebAppBoundary
+#Content-Disposition: form-data; name="file"; filename="image.JPG"
+#Content-Type: image/jpeg
+#
+#< ./image.JPG
+#--WebAppBoundary
+#Content-Disposition: form-data; name="detection_type"
+#
+#landmarks
+#--WebAppBoundary--
+#
+# app.py - שרת FastAPI לפרויקט שלך
+#
+
+
+#
+#### בדיקת עמוד הבית
+#GET http://localhost:8000/
+#
+#### בדיקת זיהוי פנים
+#POST http://localhost:8000/detect_faces/
+#Content-Type: multipart/form-data; boundary=WebAppBoundary
+#
+#--WebAppBoundary
+#Content-Disposition: form-data; name="file"; filename="image.JPG"
+#Content-Type: image/jpeg
+#
+#< ./image.jpg
+#--WebAppBoundary
+#Content-Disposition: form-data; name="detection_type"
+#
+#faces
+#--WebAppBoundary--
+#
+#### בדיקת זיהוי נקודות ציון
+#POST http://localhost:8000/detect_faces/
+#Content-Type: multipart/form-data; boundary=WebAppBoundary
+#
+#--WebAppBoundary
+#Content-Disposition: form-data; name="file"; filename="image.JPG"
+#Content-Type: image/jpeg
+#
+#< ./image.jpg
+#--WebAppBoundary
+#Content-Disposition: form-data; name="detection_type"
+#
+#landmarks
+#--WebAppBoundary--
+#
+#### בדיקת חילוץ וקטור תכונה
+#POST http://localhost:8000/extract_features
+#Content-Type: multipart/form-data; boundary=MyBoundary
+#
+#--MyBoundary
+#Content-Disposition: form-data; name="file"; filename="image.JPG"
+#Content-Type: image/jpeg
+#
+#< ./image.jpg
+#--MyBoundary--
+#
+#
+#### בדיקת עמוד הבית
+#GET http://localhost:8000/
+#
+#### בדיקת חילוץ תכונות
+#POST http://localhost:8000/extract_features
+#Content-Type: multipart/form-data; boundary=MyBoundary
+#
+#--MyBoundary
+#Content-Disposition: form-data; name="file"; filename="image.jpg"
+#Content-Type: image/jpeg
+#
+#< ./image.jpg
+#--MyBoundary--
+#
+#### בדיקת עיבוד מלא
+#POST http://127.0.0.1:8000/extract-landmarks/
+#Content-Type: multipart/form-data; boundary=WebKitFormBoundary12345
+#
+#--WebKitFormBoundary12345
+#Content-Disposition: form-data; name="file"; filename="face.jpg"
+#Content-Type: image/jpeg
+#
+#< D:\face_project\image.jpg
+#--WebKitFormBoundary12345--
+#
+#POST http://127.0.0.1:8000/upload/
+#Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+#
+#------WebKitFormBoundary7MA4YWxkTrZu0gW
+#Content-Disposition: form-data; name="file"; filename="image.jpg"
+#Content-Type: image/jpeg
+#
+#< D:\face_project\temp_image.jpg
+#------WebKitFormBoundary7MA4YWxkTrZu0gW--
+#
+#
+#POST http://127.0.0.1:8000/auth/register
+#Content-Type: application/json
+#
+#{
+#
+#    "password": "123456",
+#    "name": "Test User"
+#}
+#
+#### התחברות
+#POST http://127.0.0.1:8000/auth/login
+#Content-Type: application/json
+#
+#{
+#
+#    "password": "123456"
+#}
+#
+#### יצירת אירוע חדש
+#POST http://127.0.0.1:8000/events/create
+#Content-Type: application/json
+#Authorization: Bearer YOUR_TOKEN_HERE
+#
+#{
+#    "name": "חתונת דנה ויונתן",
+#    "date": "2024-06-15T19:00:00",
+#    "location": "אולמי דיאמונד",
+#    "description": "חתונה של חברים"
+#}
+#
+#### העלאת תמונת ייחוס
+#POST http://127.0.0.1:8000/face-recognition/upload-reference-photo
+#Authorization: Bearer YOUR_TOKEN_HERE
+#Content-Type: multipart/form-data
+#
+#### חיפוש התאמות באירוע
+#POST http://127.0.0.1:8000/face-recognition/find-matches/event123
+#Authorization: Bearer YOUR_TOKEN_HERE
+### Register new user
+POST http://127.0.0.1:8000/auth/register
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "password": "123456",
+  "name": "Test User"
+}
+
+### Login user
+POST http://127.0.0.1:8000/auth/login
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "password": "123456"
+}
+
+### Create new event
+POST http://127.0.0.1:8000/events/create
+Content-Type: application/json
+Authorization: Bearer YOUR_TOKEN_HERE
+
+{
+  "name": "Wedding Event",
+  "event_code": "WEDDING2024"
+}
+
+### Upload reference photo
+POST http://127.0.0.1:8000/face-recognition/upload-reference-photo
+Authorization: Bearer YOUR_TOKEN_HERE
+Content-Type: multipart/form-data
+
+### Upload and process event photos - NEW ENDPOINT THAT WAS MISSING
+POST http://127.0.0.1:8000/face-recognition/upload-and-process-event-photos/2ddd4e09-2a06-45a3-9aec-4ca3849bd6bd
+Authorization: Bearer YOUR_TOKEN_HERE
+Content-Type: multipart/form-data
+
+### Get processing status for event
+GET http://127.0.0.1:8000/face-recognition/processing-status/2ddd4e09-2a06-45a3-9aec-4ca3849bd6bd
+Authorization: Bearer YOUR_TOKEN_HERE
+
+### Get user photos from event
+GET http://127.0.0.1:8000/face-recognition/user-photos/2ddd4e09-2a06-45a3-9aec-4ca3849bd6bd
+Authorization: Bearer YOUR_TOKEN_HERE
+
+### Get event processing statistics
+GET http://127.0.0.1:8000/face-recognition/event-stats/2ddd4e09-2a06-45a3-9aec-4ca3849bd6bd
+Authorization: Bearer YOUR_TOKEN_HERE
+
+### Upload event photos - regular endpoint
+POST http://127.0.0.1:8000/face-recognition/upload-event-photos/2ddd4e09-2a06-45a3-9aec-4ca3849bd6bd
+Authorization: Bearer YOUR_TOKEN_HERE
+Content-Type: multipart/form-data
+
+### Process event photos - regular endpoint
+POST http://127.0.0.1:8000/face-recognition/process-event-photos/2ddd4e09-2a06-45a3-9aec-4ca3849bd6bd
+Authorization: Bearer YOUR_TOKEN_HERE
+
+### Find matches in event
+POST http://127.0.0.1:8000/face-recognition/find-matches/event123
+Authorization: Bearer YOUR_TOKEN_HERE
+
+### Check face recognition health
+GET http://127.0.0.1:8000/face-recognition/health
+
+### Check server status
+GET http://127.0.0.1:8000/api/status
+
+### List all available routes
+GET http://127.0.0.1:8000/debug/routes
+
+### Test connection
+GET http://127.0.0.1:8000/test-connection
+
+### Check database connection
+GET http://127.0.0.1:8000/debug/database
+
+### Root endpoint
+GET http://127.0.0.1:8000/
+
+### Health check
+GET http://127.0.0.1:8000/health
